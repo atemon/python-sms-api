@@ -4,7 +4,7 @@ SMS API for SMS API in python
 
 #### Install
 
-    pip install git+git://github.com/atemon/python-sms-api.git
+    pip install AtemonSMSAPI
 
 
 #### Usage
