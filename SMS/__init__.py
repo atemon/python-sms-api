@@ -37,12 +37,12 @@ import importlib
 class API(object):
     """SMS API for various providers."""
 
-    provider = "GAG"
+    provider_code = "GAG"
 
     def __init__(self, username, password, sender_name, provider=None, number=None, message_type=0):
         """Initialize SMS module for given providers."""
         if provider:
-            self.provider = provider
+            self.provider_code = provider
 
         self.username = username
         self.password = password
@@ -50,7 +50,7 @@ class API(object):
         self.message_type = message_type
         self.sender_name = sender_name
 
-        sms_module = importlib.import_module("SMS." + provider)
+        sms_module = importlib.import_module("SMS." + self.provider_code)
         self.provider = sms_module.API(
             username=username,
             password=password,
