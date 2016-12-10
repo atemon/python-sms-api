@@ -1,7 +1,7 @@
 from distutils.core import setup
 
 setup(
-    name='Atemon SMS API',
+    name='AtemonSMSAPI',
     version='0.1',
     packages=['SMS',],
     license='MIT Except',
