@@ -10,6 +10,8 @@ Author: Varghese Chacko varghese@atemon.com
 
 Copyright 2016 Atemon Technology Consultants LLP
 
+This file is part of SMS library and distributed under the MIT license (MIT).
+
 Permission is hereby granted, free of charge, to any person obtaining a copy of this
 software and associated documentation files (the "Software"), to deal in the Software
 without restriction, including without limitation the rights to use, copy, modify,

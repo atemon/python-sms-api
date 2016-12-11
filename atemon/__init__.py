@@ -12,6 +12,8 @@ Copyright 2016 Atemon Technology Consultants LLP
 Each package may have different opensource licence(s), Please refer to LICENSE.txt
 in each package/or top of the file.
 
+This file is part of SMS library and distributed under the MIT license (MIT).
+
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
 INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
 PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE X CONSORTIUM BE LIABLE FOR ANY CLAIM,
