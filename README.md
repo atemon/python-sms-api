@@ -222,7 +222,7 @@ Note: If mobile number(s) is passed to ```send()```, the message is end ONLY to 
     )
 
 Note: If mobile number(s) is passed to ```send()```, the message is end ONLY to the number passed. The number(s) set via constructor will be ignored for that call. It will NOT replace the number(s) set via constructor
-Note: scheduled_time need to be a valid datetime.datetime object. It's the developers freedom, how to set date. For dates in past, or in far future, its the API desides to accept or not or deny.
+Note: scheduled_time need to be a valid datetime.datetime object. It's the developers freedom, how to set date. For dates in past, or in far future, its the API decides to accept or not or deny.
 
 ### Get balance information
 
@@ -301,4 +301,4 @@ Note: Passed only necessary info to API. You may call ```get_delivery_report()``
 
 ## Contributors.
 
-You are requested to report bugs and/or contribute to the package. We will try our best to keep track of any pull requests or bug reports. A mail with package name in subject line, sent to ```varghese@atemon.com```, will get quicker attension :)
+You are requested to report bugs and/or contribute to the package. We will try our best to keep track of any pull requests or bug reports. A mail with package name in subject line, sent to ```varghese@atemon.com```, will get quicker attention :)
