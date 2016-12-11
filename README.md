@@ -1,9 +1,11 @@
 
 Python wrapper for SMS APIs
 ===========================
-&copy; 2016 ATEMON Technology Consultants LLP
-<a href="http://www.atemon.com">http://www.atemon.com</a>
-License: MIT License (modified)
+
+&copy; 2016 ATEMON Technology Consultants LLP<br>
+License: MIT License (modified)<br>
+Website: <a href="http://www.atemon.com">http://www.atemon.com</a><br>
+Author: Varghese Chacko <varghese@atemon.com>
 
 #### Install
 
