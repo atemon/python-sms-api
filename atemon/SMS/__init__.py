@@ -50,7 +50,7 @@ class API(object):
         self.message_type = message_type
         self.sender_name = sender_name
 
-        sms_module = importlib.import_module("SMS." + self.provider_code)
+        sms_module = importlib.import_module("atemon.SMS." + self.provider_code)
         self.provider = sms_module.API(
             username=username,
             password=password,
