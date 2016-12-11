@@ -3,7 +3,7 @@ from distutils.core import setup
 
 setup(
     name='Atemon-SMSAPI',
-    version='0.1.1.0',
+    version='0.1.1.1',
     packages=['atemon', 'atemon.SMS', 'atemon.SMS.GAG'],
     long_description="Connect to SMS API with Python",
     author="Varghese Chacko",
