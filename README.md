@@ -52,9 +52,12 @@ Create an instance of SMS API to send SMS.
         </ul>
     </li>
     <li>http_api - URL to HTTP API. Default value is http://sapteleservices.com/SMS_API/.</li>
- </ul>
+</ul>
+
+```sh
 
     rep = sms_api.send(message=<Message string>)
+```
 
 <ul>
     <li>message - The message to be sent.</li>
