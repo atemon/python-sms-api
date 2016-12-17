@@ -35,7 +35,8 @@ Create an instance of SMS API to send SMS.
         password=<Your Password>,
         sender_name=<Your Sender Name>,
         number=[List of numbers],
-        message_type=[message type]
+        message_type=[message type],
+        http_api=[http API URL],
     )
 
 <ul>
@@ -44,6 +45,7 @@ Create an instance of SMS API to send SMS.
     <li>sender_name  - Your sender name on SMS API</li>
     <li>number       - If you wish to send message to same mobile number, you may set it here and need not pass mobile number to other funcetion calls. You can set a string as a number or pass a list of strings to send to multiple mobile numbers.</li>
     <li>message_type - The message type identifier by provider(transactional or promotional).</li>
+    <li>http_api - URL to HTTP API. Default value is http://sapteleservices.com/SMS_API/.</li>
     <ul>For GreenAds Global
         <li>0 - Promotional</li>
         <li>1 - Transactional</li>
